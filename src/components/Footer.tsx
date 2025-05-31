@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="border-t border-gray-800 pt-6">
             <div className="text-sm text-gray-400 space-y-1">
               <p>Desenvolvido por <span className="text-academy-400 font-medium">Davi de Moura Seares</span></p>
-              <p>Universidade de Gurupi - <span className="text-academy-400 font-medium">UNIG</span></p>
+              <p>Universidade - <span className="text-academy-400 font-medium">UNIG</span></p>
               <p className="text-xs text-gray-500 mt-2">© 2024 Academia Forge. Todos os direitos reservados.</p>
             </div>
           </div>
