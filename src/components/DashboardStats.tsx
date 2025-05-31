@@ -6,28 +6,28 @@ import { BookOpen, Clock, Trophy, Target } from 'lucide-react';
 const DashboardStats = () => {
   const stats = [
     {
-      title: 'Courses Enrolled',
+      title: 'Cursos Inscritos',
       value: '12',
       icon: BookOpen,
       color: 'from-academy-500 to-academy-600',
       bgColor: 'bg-academy-50'
     },
     {
-      title: 'Learning Hours',
+      title: 'Horas de Estudo',
       value: '84',
       icon: Clock,
       color: 'from-purple-500 to-purple-600',
       bgColor: 'bg-purple-50'
     },
     {
-      title: 'Certificates',
+      title: 'Certificados',
       value: '5',
       icon: Trophy,
       color: 'from-yellow-500 to-yellow-600',
       bgColor: 'bg-yellow-50'
     },
     {
-      title: 'Goals Achieved',
+      title: 'Metas Alcançadas',
       value: '23',
       icon: Target,
       color: 'from-green-500 to-green-600',

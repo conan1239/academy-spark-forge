@@ -10,7 +10,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
             <div className="h-8 w-8 rounded-full bg-gradient-to-r from-academy-500 to-purple-600"></div>
-            <span className="font-inter font-bold text-xl text-gray-900">Academy Forge</span>
+            <span className="font-inter font-bold text-xl text-gray-900">Academia Forge</span>
           </div>
         </div>
         
@@ -19,7 +19,7 @@ const Header = () => {
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
             <input
               type="text"
-              placeholder="Search courses, topics, or resources..."
+              placeholder="Buscar cursos, tópicos ou recursos..."
               className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-academy-500 focus:border-transparent"
             />
           </div>

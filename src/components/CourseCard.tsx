@@ -42,7 +42,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
         <h3 className="font-semibold text-lg mb-2 line-clamp-2 group-hover:text-academy-600 transition-colors">
           {title}
         </h3>
-        <p className="text-gray-600 text-sm mb-4">by {instructor}</p>
+        <p className="text-gray-600 text-sm mb-4">por {instructor}</p>
         
         <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
           <div className="flex items-center gap-1">
@@ -62,7 +62,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
         {progress !== undefined && (
           <div className="mb-4">
             <div className="flex justify-between text-sm mb-1">
-              <span className="text-gray-600">Progress</span>
+              <span className="text-gray-600">Progresso</span>
               <span className="font-medium">{progress}%</span>
             </div>
             <Progress value={progress} className="h-2" />
@@ -70,7 +70,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
         )}
 
         <Button className="w-full bg-academy-600 hover:bg-academy-700 text-white">
-          {progress !== undefined ? 'Continue Learning' : 'Enroll Now'}
+          {progress !== undefined ? 'Continuar Aprendendo' : 'Inscrever-se Agora'}
         </Button>
       </CardContent>
     </Card>
