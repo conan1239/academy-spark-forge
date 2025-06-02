@@ -1,5 +1,5 @@
 
-name: Deploy to GitHub Pages
+name: Deploy Hello World to GitHub Pages
 
 on:
   push:
